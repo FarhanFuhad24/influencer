@@ -17,11 +17,12 @@ header{
 .menu{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 1000px;
+    align-items: center; 
+    width: 1100px;
 }
 .logo{
     font-size: 25px;
+    font-weight: 700;
     text-decoration: none;
     color: #3A3A3A;
 }
@@ -34,20 +35,23 @@ nav a{
 .body-container{
     display: flex;
     justify-content: center;
-    height: 170px;
-    padding-top: 150px;
+    height: 80vh;
+    padding-bottom: 100px;
+}
+.menu-text{
+    width: 50%;
 }
 .menu-text h1{
     font-size: 52px;
     font-weight: 700;
     color: #3A3A3A;
-    
 }
 .menu-text p{
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     color: #3A3A3A;
     margin-top: 20px;
+    text-align: justify;
 }
 .menu-text button{
     color: white;
@@ -55,8 +59,27 @@ nav a{
     border: 1px solid #E02C6D;
     border-radius: 41px;
     padding: 10px 20px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .body-container img{
     width: 100%;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.icon-container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 30px;
+    align-items: center;
+    width: 950px;
+    margin-right: 50px;
+    /* border: 1px solid #E02C6D; */
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.918);
 }
