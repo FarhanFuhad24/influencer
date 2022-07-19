@@ -177,3 +177,13 @@ footer{
     color: white;
     padding-top: 10px;
 }
+
+/* media quary */
+@media only screen and (max-width:767px) {
+   .body-container{
+    width: 100%;
+   }
+   .menu{
+    flex-direction: column-reverse;
+   }
+}
